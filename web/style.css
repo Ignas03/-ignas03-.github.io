@@ -1,0 +1,132 @@
+:root {
+    --background-color: aquamarine;
+    --text-color: white;
+}
+
+.dark-theme {
+    --background-color: #2c2c2c;
+    --text-color: #ffffff;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Jaro";
+    font-weight: 900;
+    font-size: 18px;
+    border-style: double;
+}
+/*body{
+    color: c;
+    font-family: "Jaro";
+    font-weight: 900;
+    font-size: 18px;
+    border-style: double;
+    
+}
+    */
+
+.header{
+    background-color: bisque;
+    text-align: center;
+}
+h2{
+    background-color: blueviolet;
+}
+
+.barr {
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #555;
+    color: #555;
+}
+
+
+.bar li{
+    display: inline;
+}
+.bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.bar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+a.one:link {color:none;}
+a.one:visited {color:none;}
+a.one:hover {color: none;}
+
+
+a.two{
+    color: brown;
+}
+a.two:active{
+    color: greenyellow;
+}
+a.two:visited{
+    color: wheat;
+}
+a.two:hover {
+    background-color: rgb(99, 99, 93);
+    font-size: 18px;
+}
+    
+
+
+button {
+    margin: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #676565;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: "Jaro";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #bdb2b2;
+}
+
+footer {
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: wheat;
+    color: blue;
+    border-color: wheat;
+}
+
+a.soc {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+a.soc:hover {
+    color: yellow;
+    text-decoration: underline;
+    margin: none;
+    padding: 1px;
+    cursor: pointer;
+    border: none;
+    border-radius: 1px;
+    background-color: rgb(167, 151, 122);
+}
